@@ -1,0 +1,30 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+li {
+	float: left;
+}
+#allcontent {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav {
+	background-color: #cccccc;
+	dipslay: inline-block;
+
+}
+.hov {
+	display: none;
+}
+
+.nav:hover .hov{
+	display: block;
+}
